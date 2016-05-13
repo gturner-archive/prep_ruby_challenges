@@ -1,9 +1,7 @@
 def factorial(num)
-	starting = 1
 	answer = 1
-	num.times do 
-		answer *= starting
-		starting = starting.next
+	num.times do |i|
+		answer *= (i + 1)
 	end
 	answer
 end
