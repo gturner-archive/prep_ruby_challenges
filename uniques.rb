@@ -1,5 +1,4 @@
 def uniques(arr)
-	
 	arr.length.times do |i|
 		arr.length.times do |k|
 			if arr[i] == arr[k] && i != k
